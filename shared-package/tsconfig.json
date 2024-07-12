@@ -1,0 +1,17 @@
+{
+  "files": [
+	"src/global.d.ts"
+  ],
+  "include": [
+	"src/**/*"
+  ],
+  "references": [
+	{
+	  "path": "./tsconfig.node.json"
+	}
+  ],
+  "compilerOptions": {
+	"target": "ESNext",
+	"allowSyntheticDefaultImports": true
+  }
+}

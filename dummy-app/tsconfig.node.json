@@ -1,0 +1,16 @@
+{
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "include": [
+	"vite.config.*",
+	"vite.pos-material.config.*",
+	"vitest.config.*"
+  ],
+  "compilerOptions": {
+	"composite": true,
+	"module": "ESNext",
+	"moduleResolution": "Bundler",
+	"types": [
+	  "node"
+	]
+  }
+}
